@@ -1,7 +1,7 @@
 SSHFS Mounter for macOS
 =======================
 
-<img src="https://github.com/i-amdroid/sshfs-mounter/blob/master/screenshot.png" width="577">
+<img src="https://github.com/i-amdroid/sshfs-mounter/blob/master/screenshot.png" width="782">
 
 GUI for SSHFS command line interface.
 
