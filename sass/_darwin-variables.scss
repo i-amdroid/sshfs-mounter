@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+$darwin-window-font: system-ui; // -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+
+$darwin-window-bg: #ececec;
+$darwin-input-bg: #ffffff;
+$darwin-active-bg: #006cd5;
+$darwin-inactive-bg: #dcdcdc; // active when blur
+$darwin-divider: #d5d5d5;
+$darwin-input-border: #c5c5c5;
+$darwin-bar-border: #b4b4b4;
+$darwin-bar-bg: #f8f8f8;
+$darwin-disabled-bg: #f6f6f6;
+
+$darwin-window-text: #242424;
+$darwin-active-text: #ffffff;
+$darwin-inactive-text: $darwin-window-text;
+$darwin-disabled-text: #b1b1b1;

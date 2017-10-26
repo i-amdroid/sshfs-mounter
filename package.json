@@ -1,0 +1,41 @@
+{
+  "name": "sshfs-mounter",
+  "productName": "SSHFS Mounter",
+  "version": "1.0.0",
+  "description": "GUI for mount SSHFS volumes.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "net.iamdroid.sshfs-mounter",
+    "files": [
+      "!.sass-cache${/*}",
+      "!sass${/*}",
+      "!tmp${/*}"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  },
+  "repository": "https://github.com/i-amdroid/sshfs-mounter",
+  "keywords": [
+    "SSHFS",
+    "mount",
+    "manager",
+    "GUI"
+  ],
+  "author": "Iamdroid mdrdnt@gmail.com",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "1.7.9",
+    "electron-builder": "^19.40.0"
+  },
+  "dependencies": {
+    "electron-settings": "^3.1.3",
+    "fix-path": "^2.1.0",
+    "jquery": "^3.2.1"
+  }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SSHFS Mounter</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body class="ui-darwin"><!-- ui-darwin hardcoded for now -->
+    <div class="sm-container">
+      <div id="main">
+
+        <div class="section section-commections">
+          <div class="section-container">
+            <div class="connections-list">
+              <ul id="sm-con-list"></ul>
+              <div class="btn-group">
+                <button id="sm-add-con">＋</button>
+                <button id="sm-rm-com">－</button>
+              </div>
+            </div>
+            <div class="connection-properties">
+              <div class="connection-info">
+                <div class="field field-inline">
+                  <div class="field-title">Volume title:</div>
+                  <div class="field-content">
+                    <input id="sm-title" type="text" name="sm-title">
+                  </div>
+                </div>
+                <div class="field-group-inline">
+                  <div class="field field-inline field-server">
+                    <div class="field-title">Server:</div>
+                    <div class="field-content">
+                      <input id="sm-server" type="text" name="sm-server">
+                    </div>
+                  </div>
+                  <div class="field field-inline field-port">
+                    <div class="field-title">Port:</div>
+                    <div class="field-content">
+                      <input id="sm-port" type="text" name="sm-port">
+                    </div>
+                  </div>
+                </div>
+                <div class="field field-inline">
+                  <div class="field-title">Username:</div>
+                  <div class="field-content">
+                    <input id="sm-user" type="text" name="sm-user">
+                  </div>
+                </div>
+                <div class="field field-inline field-password">
+                  <div class="field-title">Password:</div>
+                  <div class="field-content">
+                    <input id="sm-password" type="password" name="sm-password">
+                  </div>
+                </div>
+                <div class="field field-inline field-checkbox">
+                  <div class="field-content">
+                    <input id="sm-savepass" type="checkbox" name="sm-savepass" value="false">
+                    <label for="sm-savepass">Save password</label>
+                  </div>
+                </div>
+                <div class="field field-inline">
+                  <div class="field-title">Key file:</div>
+                  <div class="field-content">
+                    <input id="sm-key" type="text" name="sm-key">
+                  </div>
+                </div>
+                <div class="field field-inline">
+                  <div class="field-title">Remote directory:</div>
+                  <div class="field-content">
+                    <input id="sm-remote" type="text" name="sm-remote">
+                  </div>
+                </div>
+                <div class="field field-inline">
+                  <div class="field-title">Mount directory:</div>
+                  <div class="field-content">
+                    <input id="sm-mount" type="text" name="sm-mount">
+                  </div>
+                </div>
+              </div>
+              <div class="connection-actions">
+                <button id="sm-con-save">Save</button>
+                <button id="sm-con-mount">Mount</button>
+                <button id="sm-con-unmount">Unmount</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--
+        <div class="section section-manual">
+          <div class="section-title">Manual connection</div>
+          <div class="field field-manual">
+            <div class="field-content">
+              <input id="sm-input" type="text" name="sm-input">
+              <button id="sm-exec-btn">Run</button>
+            </div>
+          </div>
+        </div>
+        -->
+
+        <div class="section section-log">
+          <div class="section-title">Connection log:</div>
+          <div class="field">
+            <div class="field-content">
+              <textarea id="sm-output" name="sm-output" readonly></textarea>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
