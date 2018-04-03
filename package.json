@@ -1,7 +1,7 @@
 {
   "name": "sshfs-mounter",
   "productName": "SSHFS Mounter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GUI for mount SSHFS volumes.",
   "main": "main.js",
   "scripts": {
@@ -30,7 +30,7 @@
   "author": "Iamdroid mdrdnt@gmail.com",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "1.7.11",
+    "electron": "1.8.4",
     "electron-builder": "^19.40.0"
   },
   "dependencies": {
